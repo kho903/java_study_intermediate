@@ -1,4 +1,4 @@
-package ch04;
+package chap01.ch04;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
@@ -9,7 +9,7 @@ public class PersonClassTest {
 		Person person = new Person("James");
 		System.out.println(person);
 
-		Class c = Class.forName("ch04.Person");
+		Class c = Class.forName("chap01.ch04.Person");
 		Class[] parameterTypes = {String.class};
 		Constructor constructor = c.getConstructor(parameterTypes);
 

@@ -1,11 +1,11 @@
-package ch03;
+package chap01.ch03;
 
-public class StringBuilderTest {
+public class StringBufferTest {
 	public static void main(String[] args) {
 		String java = new String("java");
 		String android = new String("android");
 
-		StringBuilder sb = new StringBuilder(java);
+		StringBuffer sb = new StringBuffer(java);
 		System.out.println(System.identityHashCode(sb));
 		sb.append(android);
 		System.out.println(sb.toString());

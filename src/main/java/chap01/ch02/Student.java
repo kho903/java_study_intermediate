@@ -1,4 +1,4 @@
-package ch02;
+package chap01.ch02;
 
 public class Student implements Cloneable {
 	private int studentId;

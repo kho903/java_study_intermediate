@@ -1,4 +1,4 @@
-package ch02;
+package chap01.ch02;
 
 public class EqualsTest {
 	public static void main(String[] args) throws CloneNotSupportedException {

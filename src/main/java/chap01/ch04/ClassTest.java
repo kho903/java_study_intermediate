@@ -1,4 +1,4 @@
-package ch04;
+package chap01.ch04;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;

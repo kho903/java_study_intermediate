@@ -1,4 +1,4 @@
-package ch01;
+package chap01.ch01;
 
 class Book extends Object {
 	private String title;
