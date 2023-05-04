@@ -18,5 +18,7 @@ public class MemberArrayListTest {
 		System.out.println("==== remove memberHong ====");
 		memberArrayList.removeMember(memberHong.getMemberId());
 		memberArrayList.showAllMembers();
+
+		memberArrayList.removeMember(10000);
 	}
 }
